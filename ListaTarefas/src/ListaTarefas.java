@@ -39,6 +39,8 @@ public class ListaTarefas {
         lista.adicionar("A");
         lista.marcar_concluida("A");
         System.out.println(lista.listar());
+        lista.remover("Teste");
+        System.out.println(lista.listar());
         System.out.println("Total: " + lista.total());
     }
 }
